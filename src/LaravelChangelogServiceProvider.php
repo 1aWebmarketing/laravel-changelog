@@ -9,7 +9,7 @@ class LaravelChangelogServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    public function boot()
+    public function boot(): void
     {
         // No assets to publish for now.
     }
@@ -17,9 +17,9 @@ class LaravelChangelogServiceProvider extends ServiceProvider
     /**
      * Register any application services.
      */
-    public function register()
+    public function register(): void
     {
         // Automatically include helper functions.
-        require_once __DIR__ . '/Helpers/changelog.php';
+        require_once __DIR__ . "/Helpers/changelog.php";
     }
 }
