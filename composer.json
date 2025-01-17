@@ -1,0 +1,33 @@
+{
+    "name": "oneawebmarketing/laravel-changelog",
+    "description": "This package supplies 2 helper functions for getting the changelog app version and the changelog as html",
+    "type": "library",
+    "require": {
+        "league/commonmark": "^2.6"
+    },
+    "require-dev": {
+        "league/commonmark": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneAWebmarketing\\LaravelChangelog\\": "src/"
+        },
+        "files": [
+            "src/Helpers/changelog.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OneAWebmarketing\\LaravelChangelog\\LaravelChangelogServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "1aWebmarketing",
+            "email": "info@1awebmarketing.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}
