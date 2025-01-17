@@ -5,6 +5,7 @@
     "require": {
         "league/commonmark": "^2.6"
     },
+    "license": "MIT",
     "require-dev": {
         "league/commonmark": "^2.6"
     },
